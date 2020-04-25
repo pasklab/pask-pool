@@ -1,6 +1,6 @@
 # Personal Page
 
-Want to help? You can translate translations files in your first language. Once it's done, just fire a pull request!
+###Want to help? You can translate translations files in your first language. Once it's done, just fire a pull request!
 
 `assets` directory has been set apart from this repository to respect limited license.
 
