@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name: 'staking-pool.pasklab.com',
+    name: 'pool.pasklab.com',
     script: 'yarn',
     // Options reference: https://pm2.keymetrics.io/docs/usage/application-declaration/
     args: 'start',

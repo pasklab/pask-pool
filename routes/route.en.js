@@ -38,9 +38,9 @@ router.post('/contact', function (req, res) {
 
 		let transporter = nodemailer.createTransport(process.env.MAILER_URL);
 		let message = {
-			from: 'contact@pasklab.com',
-			to: 'pascallapointe@pasklab.com',
-			subject: 'Nouveau message - pool.pasklab.com',
+			from: process.env.MAILER_FROM,
+			to: process.env.MAILER_TO,
+			subject: process.env.MAILER_SUBJECT,
 			html: render({
 				name: data['name'],
 				email: data['email'],
