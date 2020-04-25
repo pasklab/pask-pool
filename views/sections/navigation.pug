@@ -1,0 +1,16 @@
+nav.header-main(data-simplebar='')
+    // Logo
+    .logo
+        a(href=('fr' === locale) ? '/fr' : '/')
+            img(src='images/logo.png' alt='Pask Pool' width='150')#main-logo
+    ul#main-nav
+        li(data-tooltip=t('home') data-position='top')
+            a.icon-h.fas.fa-house-damage(href='#home')
+        li(data-tooltip=t('learn_about') data-position='top')
+            a.icon-l.fas.fa-graduation-cap(href='#learn')
+        li(data-tooltip=t('the_project') data-position='top')
+            a.icon-p.fas.fa-laptop-code(href='#the-project')
+        //li(data-tooltip='Our Stats' data-position='top')
+        //    a.icon-s.fas.fa-chart-pie(href='#stats')
+        li(data-tooltip=t('contact_me') data-position='bottom')
+            a.icon-c.fas.fa-envelope(href='#contact')

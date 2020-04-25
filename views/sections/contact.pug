@@ -1,0 +1,24 @@
+.page.pt-contact(data-simplebar='')
+    section.container
+        // Section Title
+        .header-page.mt-70.mob-mt
+            h2= t('contact_me')
+            span
+        .row.mt-100
+            .col-lg-12.col-sm-12
+                .contact-form
+                    form#contact-form.contact-form-area.box-1
+                        .row
+                            .col-lg-6.col-sm-12
+                                input#form-name.form-control(type='text', name='name', placeholder=t('contact_name'))
+                            .col-lg-6.col-sm-12
+                                input#form-email.form-control(type='text', name='email', placeholder=t('contact_email'))
+                            .col-lg-12.col-sm-12.mt-40
+                                input#form-subject.form-control(type='text' name='subject' placeholder=t('contact_subject'))
+                            .col-lg-12.col-sm-12
+                                textarea#form-message.form-control(placeholder=t('contact_type_here'), name='message')
+                                input#hpot(type='text', name='hpot')
+                            .col-lg-12.col-sm-12.text-center
+                                button#contact-submit.btn-st(type='submit')= t('contact_send')
+                                #result-success.mfp-hide= t('contact_success')
+                                #result-error.mfp-hide!= t('contact_error')

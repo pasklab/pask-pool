@@ -1,0 +1,45 @@
+.pt-home(style="background-image: url('images/home-space-bg.jpg')")
+    // Particles
+    #particles-js
+    section
+        // Banner
+        .banner
+            h1= t('main_title')
+            p.cd-headline= t('main_description')
+            .ticker-headline
+                h2.ticker.ah-headline
+                    span.ah-words-wrapper
+                        b.is-visible!= t('ticker') + '&nbsp;?'
+                        b!= t('ticker_pask')
+            .status-headline
+                h4.status
+                    = t('status')
+                    |
+                    |
+                    span
+                        b.offline= t('unstable')
+                        |
+                        |
+                        b!= t('stay_in_touch')
+            h5.powered
+                | "
+                != t('powered_from')
+                img(width='30' alt='Canada Maple Leaf' src='images/canada-maple-leaf.png')
+                | "
+
+        // Language
+        .lang
+            ul
+                li
+                    a(href='/', class=('en' === locale) ? 'active' : '') ENG
+                li
+                    a(href='/fr', class=('fr' === locale) ? 'active' : '') FRA
+        // Social
+        .social
+            ul
+                li
+                    a(href='https://github.com/pascallapointe' target='new')
+                        i.fab.fa-github
+                li
+                    a(href=('en' === locale) ? 'https://pascallapointe.com/en':'https://pascallapointe.com')
+                        i.fa.fa-globe
