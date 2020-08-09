@@ -1,0 +1,25 @@
+{
+  "info": {
+    "url_png_icon_64x64": "https://pool.pasklab.com/images/paskpool_logo_64.png",
+    "url_png_logo": "https://pool.pasklab.com/images/paskpool_logo.png",
+    "location": "Alma, QC, Canada",
+    "social": {
+      "twitter_handle": "PaskLab",
+      "telegram_handle": "paskpool",
+      "github_handle": "pasklab"
+    },
+    "company": {
+      "name": "PaskLab Technologies",
+      "city": "Alma",
+      "country": "Canada"
+    },
+    "about": {
+      "me": "I am passionate about software development, web and connected technologies. Self-taught and curious, I like the challenge of learning new technologies.",
+      "server": "Cluster of 5 RaspberryPi4 8GBRam Hosted at my Home in Alma, 500MB up\/down Fiber connexion.",
+      "company": "I've created PaskLab Technologies to regroup my various 'nerdy' projects under a unique brand."
+    }
+  },
+  "my-pool-ids": [
+    "73096f5303f3626021bf17f13903763eea9a043642cd305eb18e9948"
+  ]
+}
