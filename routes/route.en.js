@@ -18,7 +18,7 @@ router.use((req, res, next) => {
 /* GET home page. */
 router.get('/', function(req, res) {
 	// res.render('index');
-	res.redirect('https://pipool.online/')
+	res.redirect(301, 'https://pipool.online/')
 });
 
 /* POST */
