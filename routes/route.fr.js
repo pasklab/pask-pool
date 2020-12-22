@@ -11,7 +11,8 @@ router.use((req, res, next) => {
 
 /* GET home page. */
 router.get('/', function(req, res) {
-	res.render('index');
+	// res.render('index');
+	res.redirect('https://pipool.online/')
 });
 
 module.exports = router;
